@@ -17,7 +17,8 @@ class xHamster : MainAPI() {
     override val vpnStatus            = VPNStatus.MightBeNeeded
 
     override val mainPage = mainPageOf(
-        "${mainUrl}/newest/"              to "Newest",
+        "${mainUrl}/4k/"                  to "4K",
+        "${mainUrl}/most-viewed/weekly/"  to "Most viewed weekly"
         "${mainUrl}/most-viewed/weekly/"  to "Most viewed weekly",
         "${mainUrl}/most-viewed/monthly/" to "Most viewed monthly",
         "${mainUrl}/most-viewed"          to "Most viewed all time",
